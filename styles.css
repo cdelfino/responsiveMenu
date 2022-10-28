@@ -55,7 +55,7 @@ footer{
     display: block;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 75vh;
+    min-height: 19vh;
     width: 100%;
     font-size: 1rem;
     text-align: center;
@@ -64,12 +64,6 @@ footer{
     gap: 10px;
 }
 
-.imagen{
-    width: 23px;
-    height: 23px;
-    color: rgb(37, 37, 37); /*falta cambiar a gris*/
-    display: none;
-}
 
 
 @media(max-width:420px){
