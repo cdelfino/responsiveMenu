@@ -9,16 +9,74 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #fafafa;
+    background-color: #c8b2e2;
     padding: 16px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .logo{
-    color: rgb(53, 53, 53);
+    color: rgb(37, 37, 37);
     letter-spacing: 8px;
+    text-transform: uppercase;
 }
 
 ul{
     display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.ocultar{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+i{
+    display: none;
+}
+
+main{
+    height: 80vh;
+    background-color: rgb(223, 223, 223);
+}
+footer{
+    height: 20vh;
+    background-color: rgb(139, 139, 139);
+}
+
+.miclase{
+    display: block;
     flex-direction: column;
+    justify-content: space-around;
+    min-height: 75vh;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    padding: 12px 0;
+    gap: 10px;
+}
+
+.imagen{
+    width: 23px;
+    height: 23px;
+    color: rgb(37, 37, 37); /*falta cambiar a gris*/
+    display: none;
+}
+
+
+@media(max-width:420px){
+    ul{
+        display: none;
+    }
+    .ocultar{
+        display: block;
+    }
 }
